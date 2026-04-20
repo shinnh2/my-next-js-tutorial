@@ -13,17 +13,17 @@ import { formatCurrency } from './utils';
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
 export async function fetchRevenue() {
-  noStore(); // 이 줄을 추가하여 캐싱을 방지합니다. 커밋 전 삭제할 것!
+  // noStore(); // 이 줄을 추가하여 캐싱을 방지합니다. 커밋 전 삭제할 것!
   try {
     // Artificially delay a response for demo purposes.
     // Don't do this in production :)
 
-    console.log('Fetching revenue data...');
-    await new Promise((resolve) => setTimeout(resolve, 3000));
+    // console.log('Fetching revenue data...');
+    // await new Promise((resolve) => setTimeout(resolve, 3000));
 
     const data = await sql<Revenue[]>`SELECT * FROM revenue`;
 
-    console.log('Data fetch는 3초 후 완료되었습니다.');
+    // console.log('Data fetch는 3초 후 완료되었습니다.');
 
     return data;
   } catch (error) {
