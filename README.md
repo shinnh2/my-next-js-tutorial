@@ -23,7 +23,7 @@ next js를 활용해 대시보드 페이지를 만듭니다. 로그인 페이지
 
 ## Deploy
 vercel을 사용해 배포하였습니다.
-- 배포 링크: https://my-next-js-tutorial-tan.vercel.app/dashboard
+- 배포 링크: https://my-next-js-tutorial-tan.vercel.app 
 
 ## Login
 아래의 계정으로 로그인 테스트를 해볼 수 있습니다.
