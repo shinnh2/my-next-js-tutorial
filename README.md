@@ -21,6 +21,10 @@ next js를 활용해 대시보드 페이지를 만듭니다. 로그인 페이지
 - 인증 : 애플리케이션에 인증 기능을 추가하는 방법NextAuth.js그리고 프록시.
 - 메타데이터 : 메타데이터를 추가하고 소셜 공유를 위해 애플리케이션을 준비하는 방법.
 
+## Wiki
+각 챕터에서 중요하거나 인상깊었던 내용들을 정리하여 기록해두었습니다.
+https://github.com/shinnh2/my-next-js-tutorial/wiki 
+
 ## Deploy
 vercel을 사용해 배포하였습니다.
 - 배포 링크: https://my-next-js-tutorial-tan.vercel.app 
